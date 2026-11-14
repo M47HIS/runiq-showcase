@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Try the mobile Plan workflow from RunIQ, a running coach. Move, review and save workouts in a fictional training week.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="theme-color" content="#111821">
+  <title>RunIQ · Plan demo</title>
+  <link rel="icon" href="./mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <header class="masthead">
+    <span class="brand"><img src="./mark.svg" width="34" height="34" alt="">RunIQ</span>
+    <a href="https://github.com/M47HIS/runiq-showcase">Source code <span aria-hidden="true">↗</span></a>
+  </header>
+  <main>
+    <aside class="intro">
+      <h1>Your training week</h1>
+      <p>Move a workout, review the new schedule, and save your week.</p>
+      <p class="demo-note">Interactive demo · Fictional training data</p>
+    </aside>
+    <section class="plan" aria-labelledby="week-title">
+      <header class="plan-header">
+        <div><h2 id="week-title">Week agenda</h2><p>16–22 March 2026</p></div>
+        <span class="total">31 km <small>planned</small></span>
+      </header>
+      <div id="editor">
+        <noscript>Enable JavaScript to try the Plan demo.</noscript>
+      </div>
+      <p id="status" class="status" role="status"></p>
+      <footer><span>Changes are saved in this browser.</span><button id="reset" class="quiet" type="button">Reset demo</button></footer>
+    </section>
+  </main>
+</body>
+</html>
