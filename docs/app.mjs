@@ -1,5 +1,5 @@
 import { calendarDates, calendarDayLock, moveCalendarSession } from "./scheduler.mjs";
-import { demoPlan, today, lockedIds, applyDates, validSavedDates } from "./fixture.mjs";
+import { demoPlan, today, lockedIds, applyDates, validSavedDates } from "./fixture.mjs?v=2";
 
 const storageKey = "runiq-showcase:week:v1";
 const editor = document.querySelector("#editor");
