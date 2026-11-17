@@ -4,7 +4,7 @@
 
 RunIQ is a mobile-first running coach. This showcase opens one fictional training week and lets you move a workout, review the schedule, and save it in your browser.
 
-Try moving Thursday’s **5 × 600 m** session to Saturday. The two workouts swap dates in the draft and keep their distances and steps. Review both changes, save, then reload the page to see the saved week. **Reset demo** restores the original fixture.
+Open Thursday’s **5 × 600 m** session to see its warm-up, intervals and cool-down. Select **Move the interval session**, then **Swap** on Saturday. The two workouts exchange dates in the draft. Review both changes, save, then reload to see the saved week. **Reset demo** restores the original fixture.
 
 - [Scheduler](docs/scheduler.mjs) — the date-only draft logic from RunIQ’s Plan screen, ported from TypeScript into browser-ready JavaScript. Past sessions, recorded outcomes, and planned breaks are protected, and moves stay in the same training week.
 - [Tests](test/scheduler.test.mjs) — swaps, immutable prescriptions, date restrictions, undo, and saved draft validation.

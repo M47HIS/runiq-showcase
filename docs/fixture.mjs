@@ -7,10 +7,10 @@ export const demoPlan = {
     breaks: [{ from: "2026-03-20", to: "2026-03-20" }],
   },
   workouts: [
-    { id: "easy", date: "2026-03-16", kind: "Easy", title: "Easy run", km: 6, steps: "6 km at a conversational effort" },
-    { id: "intervals", date: "2026-03-19", kind: "Intervals", title: "5 × 600 m", km: 8, steps: "2 km warm-up · 5 × (600 m fast + 200 m jog) · 2 km cool-down" },
-    { id: "steady", date: "2026-03-21", kind: "Steady", title: "Steady run", km: 5, steps: "1 km easy · 3 km steady · 1 km easy" },
-    { id: "long", date: "2026-03-22", kind: "Long", title: "Long run", km: 12, steps: "12 km at a conversational effort" },
+    { id: "easy", date: "2026-03-16", kind: "Easy", title: "Easy run", km: 6, steps: ["6 km at a conversational effort"] },
+    { id: "intervals", date: "2026-03-19", kind: "Intervals", title: "5 × 600 m", km: 8, steps: ["2 km warm-up", "5 × (600 m fast + 200 m jog)", "2 km cool-down"], repeats: 5 },
+    { id: "steady", date: "2026-03-21", kind: "Steady", title: "Steady run", km: 5, steps: ["1 km easy", "3 km steady", "1 km easy"] },
+    { id: "long", date: "2026-03-22", kind: "Long", title: "Long run", km: 12, steps: ["12 km at a conversational effort"] },
   ],
 };
 
